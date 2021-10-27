@@ -1,0 +1,24 @@
+{
+    "name": "projeto/coleta-entulhos",
+    "authors": [
+        {
+            "name": "Rafael Oliveira",
+            "email": "rafaxvi@hotmail.com"
+        },
+        {
+            "name": "Adjair Nascimento",
+            "email": "adjair.nascimento.204010@gmail.com"
+        }
+        
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"6.1.8",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Projeto\\": "model\\projeto\\php-classes\\src"
+        }
+    }
+}
